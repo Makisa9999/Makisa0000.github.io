@@ -1,0 +1,76 @@
+body {
+    background-color: #504910;
+
+}
+
+#slide-out {
+    background-color: black;
+    width: 140px;
+}
+
+#span1, #span2 {
+    color: white;
+}
+
+#ExperiencePTag {
+    margin-left: -15px;
+}
+
+#buttonSignIn {
+    background-color: black;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+#ProjectsPTag {
+    margin-left: -7.5px;
+}
+
+#InstagramIcons {
+    font-size: 27px;
+    margin-left: 25px;
+}
+#GitHubIcons {
+    font-size: 27px;
+    margin-left: 25px;
+}
+
+#AboutPTag, #ProjectsPTag, #ExperiencePTag, #InstagramIcons, #GitHubIcons {
+    background: -webkit-linear-gradient(#F7EEAD, #C1AC51);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 50%);
+}
+
+#sidenavTrigger {
+    background: -webkit-linear-gradient(#F7EEAD, #C1AC51);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#sidenavTrigger {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+#divLogo, #divAboutPage, #divProjectsPage, #divExperiencePage, #divInstagram, #divGitHub {
+    width: 190px;
+    height: 150px;
+}
+
+#divAboutPage:hover, #ProjectsPTag:hover, #ExperiencePTag:hover {
+    transform: translate(20%,0%);
+    transition: all 0.75s ease-in;
+}
+#InstagramIcons:hover, #GitHubIcons:hover {
+    transform: translate(100%,0%);
+    transition: all 0.75s ease-in;
+}
+#divAboutPage, #ProjectsPTag, #ExperiencePTag, #InstagramIcons, #GitHubIcons {
+    transform: translate(0%,0%);
+    transition: all 0.75s ease-out
+}
+
